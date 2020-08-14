@@ -1,0 +1,390 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#box{
+	background-color: #f5f5f5;
+}
+#header{
+	background-color: #FFFFFF;
+}
+#footer{
+	height:430px;
+	background-color: #FFFFFF;
+}
+#container {
+	width: 100%;
+	height:450px;
+	overflow: hidden;
+	position:relative;
+	z-index: 1;
+	top:-234px;
+	
+}
+#gg{
+	position: absolute;
+	top: 65%;
+	right: 20px;
+}
+#carousel {
+	width: 800%;
+	position: relative;
+}
+#carousel div,#swiper_container #swiper div{
+	width: 12.5%;
+	float: left;
+	position: relative;
+}
+#swiper_container #swiper div{
+	width:25%;
+}
+#carousel div a,#swiper_container #swiper div a{
+	width: 100%;
+	height: 450px;
+	display: block;
+	background-size: 100% 100%;
+}
+#swiper_container #swiper div a{
+	height:400px;
+}
+#carousel1 {
+	background: url(../img/carousel1.jpg)no-repeat;
+}
+
+#carousel2 {
+	background: url(../img/carousel2.jpg)no-repeat;
+}
+
+#carousel3 {
+	background: url(../img/carousel3.jpg)no-repeat;
+}
+
+#carousel4 {
+	background: url(../img/carousel4.jpg)no-repeat;
+}
+
+#carousel5 {
+	background: url(../img/carousel5.png)no-repeat;
+}
+
+#carousel6 {
+	background: url(../img/carousel6.png)no-repeat;
+}
+
+#carousel7 {
+	background: url(../img/carousel7.png)no-repeat;
+}
+
+#carousel8 {
+	background: url(../img/carousel8.jpg)no-repeat;
+}
+
+#container #flip{
+	width: 1180px;
+	height: 60px;
+	margin: 195px auto;
+	position: relative;
+	z-index: 5;
+}
+
+#container #last,#next {
+	width: 40px;
+	height: 60px;
+}
+#container #flip #last {
+	float: left;
+	position: relative;
+	top: -255px;
+	background: url(../img/icon-s37943010a3.png)no-repeat -407px -116px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+#container #flip #next {
+	float: right;
+	position: relative;
+	top: -255px;
+	background: url(../img/icon-s37943010a3.png)no-repeat -367px -116px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+#container #flip #last:hover {
+	opacity: 1;
+}
+
+#container #flip #next:hover {
+	opacity: 1;
+}
+
+#container #page,#swiper_container #swiper_page{
+	width:160px;
+	height:10px;
+	position:relative;
+	top:-28px;
+	z-index: 5;
+	margin:0 auto;
+}
+#swiper_container #swiper_page{
+	width:80px;
+	top:-85px;
+}
+#container #page .icon-page,#swiper_container #swiper_page .icon-page{
+	width:16px;
+	height:4px;
+	background-color: #808080;
+	display: block;
+	float:left;
+	margin:0 2px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+#container #page .pagebgc,#swiper_container #swiper_page .pagebgc{
+	background-color: #EA413C;
+}
+
+#recommend,#tangmao_products,#baokuan_products,#peijian,#product_video{
+	width:1180px;
+	height:430px;
+	margin:0 auto;
+}
+
+#tangmao_products,#peijian,#product_video{
+	width:1200px;
+}
+#product_video{
+	height:337px;
+	margin-bottom:40px;
+}
+
+#recommend p,#tangmao_products p,#baokuan_products p,#peijian p,#product_video p{
+	width:1180px;
+	height:40px;
+	font-size:22px;
+	line-height:40px;
+	margin-bottom:20px;
+	color:#262626;
+}
+#baokuan_products{
+	height:40px;
+}
+#recommend p span,#tangmao_products p span,#baokuan_products p span,#peijian p span,#product_video p span{
+	font-size:16px;
+	color:#8C8C8C;
+	margin-left:20px;
+}
+#tangmao_products p,#baokuan_products,#peijian p,#product_video p{
+	margin:30px auto 20px;
+}
+#recommend .recommend_product{
+	display: block;
+	float:left;
+	width:580px;
+	height:370px;
+	border-radius: 2px;
+	position:relative;	
+}
+#recommend .recommend_product img{
+	border-radius: 2px;
+}
+#recommend .recommend_product:last-child{
+	float:right;
+}
+#tangmao_products .tangmao_product,#peijian .peijian_product,#product_video .video{
+	width:280px;
+	height:370px;
+	background-color: #FFFFFF;
+	float:left;
+	display: block;
+	margin:0 10px;
+	text-decoration: none;
+	border-radius: 2px;
+	position:relative;
+}
+#product_video .video{
+	height:277px;
+}
+#tangmao_products .tangmao_product dl dt,#peijian .peijian_product dl dt{
+	margin:20px 20px 0;
+}
+#tangmao_products .tangmao_product dl dd,#peijian .peijian_product dl dd{
+	text-align: center;
+}
+#tangmao_products .tangmao_product img,#peijian .peijian_product img{
+	width:240px;
+	height:240px;
+}
+#tangmao_products .tangmao_product dl dd span,#peijian .peijian_product dl dd span{
+	display: block;
+	width:240px;
+	margin:0 auto;
+}
+#tangmao_products .tangmao_product .tangmao_name,#peijian .peijian_product .peijian_name{
+	height:36px;
+	line-height:36px;
+	color:#262626;
+}
+#tangmao_products .tangmao_product .gongneng,#peijian .peijian_product .pjgn{
+	height:20px;
+	line-height:20px;
+	color:#8C8C8C;
+	margin-bottom:14px;
+	font-size:14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	
+}
+#tangmao_products .tangmao_product .tangmao_price,#peijian .peijian_product .peijian_price{
+	color:#EA413C;
+	font-size:14px;
+}
+.all{
+	font-size:16px;
+	color:#595959;
+	text-decoration: none;
+	position:absolute;
+	right:0;
+}
+#box .all span{
+	color:#9C9C9C;
+	margin:0;
+}
+#box .allcolor{
+	color:#EA413C;
+}
+#tangmao_products p,#peijian p{
+	position:relative;
+}
+#tangmao_products .imgboxshadow,#peijian .imgboxshadow{
+	box-shadow: 0px 10px 14px 0 rgba(0,0,0,0.08);
+}
+.ad{
+	width:1180px;
+	height:160px;
+	margin:20px auto 0;
+	cursor: pointer;
+}
+#swiper_container{
+	width:1180px;
+	height:400px;
+	overflow: hidden;
+	margin:0 auto;
+}
+
+#swiper_container #swiper{
+	width:4720px;
+	height:400px;
+	background-color: blanchedalmond;
+	position:relative;
+}
+#swiper_container #swiper #swiper1{
+	background: url(../img/swiper1.png)no-repeat;
+}
+#swiper_container #swiper #swiper2{
+	background: url(../img/swiper2.png)no-repeat;
+}
+#swiper_container #swiper #swiper3{
+	background: url(../img/swiper3.jpg)no-repeat;
+}
+#swiper_container #swiper #swiper4{
+	background: url(../img/swiper4.jpg)no-repeat;
+}
+#swiper_container #swiper_flip{
+	width:1180px;
+	height:60px;
+	position:relative;
+	top:-230px;
+}
+#swiper_container #swiper_flip #swiper_last,#swiper_container #swiper_flip #swiper_next{
+	width: 40px;
+	height: 60px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+#swiper_container #swiper_flip #swiper_last{
+	float: left;
+	background: url(../img/icon-s37943010a3.png)no-repeat -407px -116px;
+}
+#swiper_container #swiper_flip #swiper_next{
+	float:right;
+	background: url(../img/icon-s37943010a3.png)no-repeat -367px -116px;
+}
+#swiper_container #swiper_flip #swiper_last:hover,#swiper_container #swiper_flip #swiper_next:hover{
+	opacity: 1;
+}
+#product_video .video dl dd{
+	text-align: center;
+	margin-top:16px;
+}
+#product_video .video dl dd .video_name{
+	font-size:16px;
+	color:#262626;
+	margin-top:20px;
+}
+#product_video .video dl dd .video_intro{
+	font-size:14px;
+	color:#8C8C8C;
+}
+#product_video .video .bofang{
+	width:40px;
+	height:40px;
+	background: url(../img/icon-s37943010a3.png)no-repeat -796px 0px;
+	border-radius: 40px;
+	position:relative;
+	left:20px;
+	top:-118px;
+	z-index:5;
+	opacity: 0.5;
+}
+#product_video .video .bofangtoumingdu{
+	opacity: 1;
+}
+#mask{
+	width:100%;
+	height:800px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+	background: rgba(0,0,0,0.4);
+	display: none;
+}
+#shipin{
+	width:900px;
+	height:600px;
+	position:relative;
+	margin:80px auto;
+	z-index:10;
+}
+#shipin div{
+	display: none;
+}
+#shipin #title{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	text-align: center;
+	color:#BFBFBF;
+	font-size:18px;
+	margin:0;
+	background-color: black;
+	margin:0 auto;
+}
+#shipin video{
+	outline:none;
+	background-color: black;
+}
+#shipin #title .close{
+	width:15px;
+	height:15px;	
+	position:absolute;
+	right:23px;
+	top:23px;
+	background: url(../img/icon-s37943010a3.png)no-repeat -240px -52px;
+	cursor: pointer;
+}
+#shipin #title .close:hover{
+	background:url(../img/icon-s37943010a3.png)no-repeat -225px -52px;
+}

@@ -1,0 +1,228 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+i {
+	background: url(../img/logo.png) no-repeat;
+	display: inline-block;
+}
+
+.rq {
+	width: 100%;
+	margin: 0 auto;
+	background: #f5f5f5;
+	color: #595959;
+	font-size: 14px;
+	position: relative;
+	top:-250px;
+}
+
+.red {
+	color: #ea413c;
+}
+
+.black {
+	color: #262626;
+}
+
+.gray {
+	color: #8c8c8c;
+}
+
+.title {
+	height: 15px;
+	width: 1180px;
+	padding: 17px 0px;
+	margin: 0 auto;
+}
+
+.title .jiantou {
+	height: 9px;
+	width: 5px;
+	margin: 0 10px;
+}
+
+.daohang {
+	height: 107px;
+	width: 1140px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 20px;
+	border-radius: 2px;
+	line-height: 53px;
+}
+
+.daohang a {
+	color: #595959;
+	margin-left: 24px;
+}
+
+.daohang .fl {
+	height: 54px;
+	width: 1140px;
+}
+
+.daohang .px {
+	height: 53px;
+	width: 1140px;
+	border-top: 1px solid rgb(229, 229, 229);
+}
+
+.daohang .px .tubiao {
+	display: inline-block;
+	width: 7px;
+	height: 11px;
+	position: relative;
+	margin-left: 6px;
+	margin-bottom: -1px;
+}
+
+.daohang .px .tubiao .s {
+	background-position: 0 -116px;
+	width: 7px;
+	height: 5px;
+	position: absolute;
+}
+
+.daohang .px .tubiao .shover {
+	background-position: -77px -52px;
+}
+
+.daohang .px .tubiao .x {
+	background-position: -70px -52px;
+	background-position: -63px -52px;
+	width: 7px;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+}
+
+.daohang .px .tubiao .xhover {
+	background-position: -70px -52px;
+}
+
+#peijian {
+	width: 1200px;
+	height: 1950px;
+	margin: 23px auto;
+}
+
+#peijian p {
+	width: 1180px;
+	height: 40px;
+	font-size: 22px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: #262626;
+}
+
+#peijian p span {
+	font-size: 16px;
+	color: #8C8C8C;
+	margin-left: 20px;
+}
+
+#peijian p {
+	margin: 30px auto 20px;
+}
+
+#peijian .peijian_product {
+	width: 280px;
+	height: 370px;
+	background-color: #FFFFFF;
+	float: left;
+	display: block;
+	margin: 0 10px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	position: relative;
+}
+
+#peijian .peijian_product dl dt {
+	margin: 20px 20px 0;
+}
+
+#peijian .peijian_product dl dd {
+	text-align: center;
+}
+
+#peijian .peijian_product img {
+	width: 240px;
+	height: 240px;
+}
+
+#peijian .peijian_product dl dd span {
+	display: block;
+	width: 240px;
+	margin: 0 auto;
+}
+
+#peijian .peijian_product .peijian_name {
+	height: 36px;
+	line-height: 36px;
+	color: #262626;
+	font-size: 16px;
+}
+
+#peijian .peijian_product .pjgn {
+	height: 20px;
+	line-height: 20px;
+	color: #8C8C8C;
+	margin-bottom: 14px;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#peijian .peijian_product .peijian_price {
+	color: #EA413C;
+	font-size: 14px;
+}
+
+.fenye {
+	width: 1180px;
+	height: 70px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.fenye .fy_btn {
+	height: 30px;
+	width: 250px;
+	margin: 20px auto;
+}
+
+.fenye .fy_btn div {
+	background-color: #FFFFFF;
+	height: 28px;
+	border: 1px solid #e8e8e8;
+	line-height: 28px;
+	margin: 0 4px;
+	float: left;
+	text-align: center;
+}
+
+.fenye .fy_btn .page-qian,
+.page-hou {
+	width: 58px;
+}
+
+.fenye .fy_btn .page-ye {
+	width: 28px;
+}
+
+.fenye .fy_btn .bred {
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	color: white;
+}
+
+.fenye .fy_btn .page-qian,
+.page-hou,.page-ye a {
+	color : black;
+}

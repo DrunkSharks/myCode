@@ -1,0 +1,371 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.quanju {
+	width: 100%;
+	height: 2130px;
+}
+
+.shequ_title {
+	height: 81px;
+	width: 1180px;
+	margin: auto;
+}
+
+.shequ_title div {
+	float: left;
+	line-height: 81px;
+}
+
+.shequ_title a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 40px;
+}
+
+.shequ_title a:hover {
+	color: #ea413c;
+	text-decoration: none;
+}
+
+.shequ_title_div7 i {
+	position: relative;
+	top: 2px;
+}
+
+.shequ_title_div9 {
+	margin-left: 260px;
+	margin-right: -15px;
+}
+
+.shequ_title_div1 img {
+	width: 168px;
+}
+
+.shequ_lunbo {
+	height: 201px;
+	width: 1180px;
+	margin: auto;
+	margin-bottom: 80px;
+	position: relative;
+	top: 30px;
+}
+
+#carousel1 {
+	background: url(../img/shequ_lunbo_1.png)no-repeat;
+}
+
+#carousel2 {
+	background: url(../img/shequ_lunbo_2.png)no-repeat;
+}
+
+.shequ_left {
+	width: 830px;
+	height: 1550px;
+	margin-bottom: 78px;
+	float: left;
+}
+
+.shequ_left_div {
+	width: 830px;
+	height: 465px;
+	background-color: white;
+	margin-bottom: 25px;
+}
+
+.shequ_left_div_title {
+	width: 790px;
+	height: 60px;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.shequ_left_div_title_font a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #202020;
+}
+
+.shequ_left_div_title_font a:hover {
+	text-decoration: none;
+}
+
+.shequ_left_div_title_img {
+	font-size: 12px;
+	color: #bfbfbf;
+	line-height: 60px;
+	float: left;
+}
+
+.shequ_left_div_title_info {
+	float: right;
+	font-size: 12px;
+	color: #bfbfbf;
+	line-height: 60px;
+}
+
+.shequ_left_div_img {
+	width: 790px;
+	height: 347px;
+	margin: auto;
+}
+
+.shequ_left_div p {
+	width: 780px;
+	font-size: 14px;
+	line-height: 1.71;
+	color: #595959;
+	margin: auto;
+}
+
+.shequ_left_div2 {
+	width: 830px;
+	height: 1070px;
+	background-color: white;
+}
+
+.shequ_left_div2_info1 {
+	width: 790px;
+	height: 100px;
+	margin: auto;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.shequ_left_div2_info2 {
+	width: 830px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	cursor: pointer;
+	opacity: .3;
+	text-align: center;
+}
+
+.shequ_left_div2_info1_div2 {
+	width: 560px;
+	height: 100px;
+}
+
+.shequ_left_div2_info1_div1,
+.shequ_left_div2_info1_div2,
+.shequ_left_div2_info1_div3 {
+	float: left;
+}
+
+.shequ_left_div2_info1_div2_font a {
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	color: black;
+}
+
+.shequ_left_div2_info1_div2_font a:hover {
+	color: #ea413c;
+	text-decoration: none;
+}
+
+.shequ_left_div2_info1_div2_img,
+.shequ_left_div2_info1_div3 {
+	font-size: 12px;
+	color: #bfbfbf;
+	line-height: 30px;
+	float: left;
+}
+
+.shequ_left_div2_info1_div2_img,
+.shequ_left_div2_info1_div3,
+.shequ_left_div2_info1_div2_font {
+	position: relative;
+	top: 25px;
+	left: 10px;
+}
+
+.shequ_right {
+	width: 330px;
+	height: 1550px;
+	margin-bottom: 78px;
+	float: right;
+}
+
+.shequ_right_login {
+	width: 330px;
+	height: 100px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.shequ_right_login_div1 {
+	width: 290px;
+	height: 60px;
+	margin: auto;
+	position: relative;
+	top: 30px;
+}
+
+.shequ_right_login_div1 div {
+	float: left;
+}
+
+.shequ_right_login_div1_login a {
+	color: #ea413c;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.shequ_right_login_div1_login a:hover {
+	text-decoration: none;
+	color: #ea413c;
+}
+
+.shequ_right_login_div1_login p {
+	font-size: 14px;
+	color: #8c8c8c;
+	margin-top: 8px;
+}
+
+.shequ_right_login2,
+.shequ_right_login7 {
+	width: 330px;
+	height: 56px;
+	line-height: 56px;
+	background-color: white;
+	text-indent: 25px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.shequ_right_login3 {
+	width: 330px;
+	height: 124px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.shequ_right_login3 a {
+	display: block;
+	float: left;
+	width: 109px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	position: relative;
+	top: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.shequ_right_login3_a1,
+.shequ_right_login3_a4,
+.shequ_right_login3_a7,
+.shequ_right_login3_a2,
+.shequ_right_login3_a5,
+.shequ_right_login3_a8 {
+	border-right: 1px solid #EEEEEE;
+}
+
+.shequ_right_login4 {
+	width: 330px;
+	height: 56px;
+	background-color: white;
+	text-indent: 25px;
+	margin-bottom: 20px;
+}
+
+.shequ_right_login4 h3,
+.shequ_right_login5 h3,
+.shequ_right_login2 h3,
+.shequ_right_login7 h3 {
+	line-height: 56px;
+}
+
+.shequ_right_login5 {
+	width: 330px;
+	height: 56px;
+	line-height: 56px;
+	background-color: white;
+	text-indent: 25px;
+}
+
+.shequ_right_login6 {
+	width: 330px;
+	height: auto;
+	background-color: white;
+}
+
+.shequ_right_login6 img {
+	display: block;
+	width: 290px;
+	margin: auto;
+}
+
+.shequ_right_login6 a {
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+
+.shequ_right_login6 p {
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+.shequ_right_login6 a:hover {
+	color: royalblue;
+	text-decoration: none;
+}
+
+.shequ_right_login8 {
+	width: 330px;
+	height: auto;
+	background-color: white;
+}
+
+.shequ_right_login8 a {
+	display: block;
+	width: 290px;
+	line-height: 26px;
+	margin: auto;
+	color: black;
+	text-decoration: none;
+}
+
+.shequ_foot {
+	clear: both;
+	height: 110px;
+	background-color: white;
+}
+
+.shequ_foot_div1 {
+	text-align: center;
+	word-spacing: 30px;
+	margin: 45px 0px 30px 0px;
+}
+
+.shequ_foot_div1 a {
+	font-size: 12px;
+	opacity: .5;
+	color: black;
+	text-decoration: none;
+}
+
+.shequ_foot p {
+	font-size: 11px;
+	opacity: .4;
+	color: black;
+	text-align: center;
+}
+
+.background {
+	width: 100%;
+	height: 1930px;
+	background-color: #F5F5F5;
+}
+
+.center {
+	width: 1180px;
+	height: auto;
+	margin: auto;
+}

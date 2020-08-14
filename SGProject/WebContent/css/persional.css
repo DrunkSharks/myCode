@@ -1,0 +1,647 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+.personal {
+	width: 1180px;
+	height: 100%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.personal-left ul li {
+	list-style: none;
+	width: 230px;
+	height: 45px;
+}
+
+.personal-left {
+	width: 230px;
+	height: 470px;
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+}
+
+.title {
+	width: 160px;
+	height: 58px;
+	line-height: 58px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #262626;
+	margin-left: 70px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.i-index,
+.i-address,
+.i-gift,
+.i-order,
+.i-quan,
+.i-scode,
+.i-shouhou,
+.i-yushou {
+	text-align: center;
+	display: block;
+	width: 230px;
+	height: 45px;
+}
+
+.border-left {
+	background-color: white;
+	width: 3px;
+	height: 20px;
+	float: left;
+}
+
+.index-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -516px -52px;
+}
+
+.order-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -596px -52px;
+}
+
+.address-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -536px -52px;
+}
+
+.gift-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -476px -52px;
+}
+
+.quan-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -118px -116px;
+}
+
+.scode-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -78px -115px;
+}
+
+.shouhou-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -158px -115px;
+}
+
+.yushou-img1 {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -178px -116px;
+}
+
+.index-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -496px -52px;
+}
+
+.order-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -556px -52px;
+}
+
+.address-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -576px -52px;
+}
+
+.gift-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -436px -52px;
+}
+
+.quan-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -456px -52px;
+}
+
+.scode-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -58px -115px;
+}
+
+.shouhou-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -138px -115px;
+}
+
+.yushou-img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -616px -52px;
+}
+
+.name {
+	float: left;
+	color: black;
+	line-height: 20px;
+}
+
+.redname {
+	float: left;
+	color: black;
+	line-height: 20px;
+	color: red;
+}
+
+.red-border-left {
+	background-color: red;
+}
+
+.personal-right {
+	width: 930px;
+	height: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.right-index {
+	width: 930px;
+	height: 890px;
+	margin-bottom: 60px;
+}
+
+.shang {
+	height: 400px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.user {
+	height: 100px;
+	width: 410px;
+	padding: 30px 215px;
+	margin: auto;
+	border-bottom: 1px solid #e8e8e8;
+	position: relative;
+}
+
+.user img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.info-box {
+	height: 100px;
+	width: 410px;
+	padding: 30px 215px;
+	margin: auto;
+	border-bottom: 1px solid #e8e8e8;
+	position: relative;
+	background-color: red;
+}
+
+.info {
+	float: left;
+	width: 290px;
+	height: 90px;
+	padding-top: 10px;
+}
+
+.row {
+	width: 290px;
+	height: 30px;
+}
+
+.row a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #595959;
+}
+
+.row a:hover {
+	color: red;
+}
+
+.login-out {
+	position: absolute;
+	top: 30px;
+	right: -10px;
+	font-size: 14px;
+	color: #bfbfbf;
+	cursor: pointer;
+}
+
+.items {
+	padding: 44px 0 60px;
+	height: 135px;
+}
+
+.items a {
+	float: left;
+	width: 231px;
+	text-align: center;
+	font-size: 16px;
+	color: #262626;
+	text-decoration: none;
+}
+
+.items a:hover {
+	color: red;
+}
+
+.nopay {
+	margin: auto;
+	width: 110px;
+	height: 92px;
+	background: url(../img/logo.png) no-repeat -447px -386px;
+}
+
+.nosend {
+	margin: auto;
+	width: 110px;
+	height: 92px;
+	background: url(../img/logo.png) no-repeat -734px -196px;
+}
+
+.noreceive {
+	margin: auto;
+	width: 110px;
+	height: 92px;
+	background: url(../img/logo.png) no-repeat -624px -196px;
+}
+
+.cart {
+	margin: auto;
+	width: 110px;
+	height: 92px;
+	background: url(../img/logo.png) no-repeat -337px -386px;
+}
+
+.sep {
+	float: left;
+	width: 1px;
+	height: 80px;
+	background: #e8e8e8;
+}
+
+.xia {
+	width: 870px;
+	height: 470px;
+	padding: 30px;
+	background-color: white;
+	margin: auto;
+}
+
+.tit {
+	width: 870px;
+	height: 18px;
+}
+
+.goods {
+	margin-top: 0;
+}
+
+.love {
+	width: 900px;
+	margin-top: 20px;
+}
+
+.wuping {
+	width: 240px;
+	height: 330px;
+	padding: 20px;
+	text-align: center;
+	float: left;
+	border: solid 1px #e8e8e8;
+	margin-right: 15px;
+	margin-bottom: 0;
+}
+
+.wuping .name {
+	text-align: center;
+	width: 240px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin-top: 5px;
+}
+
+.wuping .desc {
+	display: block;
+	font-size: 14px;
+	color: #8c8c8c;
+	margin-bottom: 14px;
+	margin-top: 5px;
+	height: 40px;
+}
+
+.wuping .price {
+	color: red;
+	display: block;
+}
+
+.right-order {
+	width: 870px;
+	height: 410px;
+	background-color: white;
+	padding: 30px;
+}
+
+.tabs {
+	width: 870px;
+	height: 30px;
+}
+
+.tabs a {
+	text-decoration: none;
+}
+
+.tab {
+	float: left;
+	height: 26px;
+	margin-right: 30px;
+	font-size: 16px;
+	color: #262626;
+	border-bottom: 2px solid #fff;
+	cursor: pointer;
+}
+
+.redtab {
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+.order-empty {
+	width: 870px;
+	height: 284px;
+	padding-top: 35px;
+	margin: auto;
+	text-align: center;
+}
+
+.button {
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	width: 118px;
+	font-size: 14px;
+	background: #fff;
+	color: #ea413c;
+	border: 1px solid #ea413c;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.order-empty a {
+	text-decoration: none;
+}
+
+.right-yushou {
+	width: 870px;
+	height: 410px;
+	background-color: white;
+	padding: 30px;
+}
+
+.yushou-empty {
+	width: 870px;
+	height: 284px;
+	padding-top: 35px;
+	margin: auto;
+	text-align: center;
+}
+
+.right-shouhou {
+	width: 870px;
+	height: 410px;
+	background-color: white;
+	padding: 30px;
+}
+
+.shouhou-empty {
+	width: 870px;
+	height: 284px;
+	padding-top: 35px;
+	margin: auto;
+	text-align: center;
+}
+
+.right-gift {
+	width: 870px;
+	height: 410px;
+	background-color: white;
+	padding: 30px;
+}
+
+.qr-code {
+	margin: auto;
+	text-align: center;
+	width: 900px;
+	height: 326px;
+	margin-top: 30px;
+}
+
+.qr-code ul li {
+	list-style: none;
+	float: left;
+	width: 330px;
+	height: 290px;
+	margin-right: 30px;
+	padding: 31px 45px 0;
+	text-align: center;
+	background-color: #fafafa;
+}
+
+.right-quan {
+	width: 870px;
+	min-height: 410px;
+	background: #fff;
+	padding: 30px;
+}
+
+.quan-empty {
+	width: 870px;
+	height: 284px;
+	padding-top: 35px;
+	margin: auto;
+	text-align: center;
+}
+
+.right-address {
+	width: 870px;
+	min-height: 410px;
+	background: #fff;
+	padding: 30px;
+}
+
+.addaddress {
+	width: 870px;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 2px;
+	border: solid 1px #dcdcdc;
+	margin-bottom: 20px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.addimg {
+	margin-top: 15px;
+	margin-left: 380px;
+	text-align: center;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -98px -116px;
+}
+
+.addaddress1 {
+	width: 870px;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 2px;
+	border: solid 1px red;
+	margin-bottom: 20px;
+	cursor: pointer;
+	margin-top: 10px;
+	color: red;
+}
+
+.addimg1 {
+	margin-top: 15px;
+	margin-left: 380px;
+	text-align: center;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	background: url(../img/logo.png) no-repeat -636px -52px;
+}
+
+.scode-shang {
+	wwidth: 870px;
+	background: #fff;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.scode-input {
+	width: 423px;
+	height: 36px;
+	padding-left: 10px;
+	font-size: 14px;
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+}
+
+.score-btn {
+	width: 134px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 20px;
+	font-size: 16px;
+	background: #ea413c;
+	color: #fff;
+	border: 1px solid #ea413c;
+}
+
+.score-btn:hover {
+	background: #f77168;
+	border: 1px solid #f77168;
+}
+
+.scode-xia {
+	margin-top: 20px;
+	width: 870px;
+	height: 448px;
+	padding: 30px;
+	background: #fff;
+}
+
+.ans {
+	font-size: 14px;
+	color: #8c8c8c;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.43;
+}
+.xianshi{
+	display: block;
+}
+.yincang{
+	display: none;
+	background-color: red;
+}

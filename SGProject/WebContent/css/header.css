@@ -1,0 +1,386 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.top {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #262626;
+	color: #bfbfbf;
+	font-size: 12px;
+}
+
+.wp {
+	width: 1180px;
+	margin: auto;
+}
+.cl {
+    *zoom: 1;
+}
+
+.top .top_center {
+	width: 1180px;
+	height: 40px;
+	margin: auto;
+	text-align: center;
+	/*background-color: red;*/
+}
+
+.top .top_center a {
+	width: 48px;
+	height: 40px;
+	color: grey;
+	text-decoration: none;
+}
+
+.top .top_center a:hover {
+	color: white;
+}
+
+.top .top_center .t1 {
+	float: left;
+}
+
+.top .top_center .t2 {
+	float: right;
+}
+
+.top .top_center .sep {
+	width: 1px;
+	height: 12px;
+	background: #444444;
+	margin: 14px 10px;
+}
+
+.top .top_center .cart {
+	width: 124px;
+	text-align: center;
+	background: #ea413c;
+	color: #fff;
+	margin-left: 20px
+}
+
+.top .top_center .cart:hover {
+	background: #c42929
+}
+.qrcode-box{
+	width: 144px;
+    padding: 3px;
+    position: absolute;
+    top: 42px;
+    left: -50px;
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.15);
+	
+}
+.drop-qr{
+	width: 50px;
+    position: relative;
+    z-index: 9;
+}
+
+.qrcode-box .desc{
+	line-height: 1;
+    font-size: 14px;
+    color: #8c8c8c;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.qrcode-box img{
+    width: 144px;
+    height: 144px;
+   
+}
+.top_1 {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+}
+
+.top_1 .top_1_center {
+	width: 1180px;
+	height: 80px;
+	margin: auto;
+	text-align: center;
+	z-index: 10;
+}
+
+.top_1 .top_1_center img {
+	width: 50px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.top_1 .top_1_center .name {
+	font-size: 28px;
+	color: #262626;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.top_1 .top_1_center ul li {
+	text-align: center;
+	list-style: none;
+	float: left;
+}
+.top_1 .top_1_center .sub-menu{
+	width: 100%px;
+    height: 275px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    margin-top:20px;
+  	z-index: 10;
+	    
+}
+.top_1 .top_1_center .sub-menu1{
+	width: 100%px;
+    height: 275px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    margin-top:20px;
+ 	/*z-index: 10;*/
+    
+	    
+}
+.top_1 .top_1_center .sub-menu2{
+	width: 100%px;
+    height: 275px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    margin-top:20px;
+ 	/*z-index: 10;*/
+    
+	    
+}
+
+.top_1 .top_1_center .sub-menu .wp{
+	width: 1180px;
+    margin: auto;
+
+}
+.top_1 .top_1_center .sub-menu .wp .sub-item{
+	float: left;
+    width: 200px;
+    height: 220px;
+    padding: 20px 0 35px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.top_1 .top_1_center .sub-menu .wp .sub-item .cover{
+	display: block;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+}
+
+.top_1 .top_1_center .sub-menu .wp .sub-item .cover  img{
+	display: block;
+	width: 170px;
+	height: 170px;
+}
+.top_1 .top_1_center .sub-menu .wp .sub-item .name{
+	display: block;
+	position: relative;
+	top:-30px;
+	font-size: 15px;
+}
+.top_1 .top_1_center .sub-item .price{
+	display: block;
+	position: relative;
+	top:-80px;
+	color: red;
+    
+}
+.top_1 .top_1_center .sub-item .sub-sep{
+	content: '\20';
+    position: absolute;
+    height: 150px;
+    width: 1px;
+    background: #e8e8e8;
+    top: 58px;
+    right: 15px;
+}
+
+
+
+/*糖猫手表*/
+.top_1 .top_1_center .sub-menu1 .wp{
+	width: 1180px;
+    margin: auto;
+
+}
+.top_1 .top_1_center .sub-menu1 .wp .sub-item{
+	float: left;
+    width: 200px;
+    height: 220px;
+    padding: 20px 0 35px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.top_1 .top_1_center .sub-menu1 .wp .sub-item .cover{
+	display: block;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+}
+
+.top_1 .top_1_center .sub-menu1 .wp .sub-item .cover  img{
+	display: block;
+	width: 150px;
+	height: 170px;
+}
+.top_1 .top_1_center .sub-menu1 .wp .sub-item .name{
+	display: block;
+	position: relative;
+	top:-30px;
+	font-size: 15px;
+}
+.top_1 .top_1_center .sub-item .price{
+	display: block;
+	position: relative;
+	top:-80px;
+	color: red;
+    
+}
+.top_1 .top_1_center .sub-item .sub-sep{
+	content: '\20';
+    position: absolute;
+    height: 150px;
+    width: 1px;
+    background: #e8e8e8;
+    top: 58px;
+    right: 15px;
+}
+/*配件*/
+.top_1 .top_1_center .sub-menu2 .wp{
+	width: 1180px;
+    margin: auto;
+
+}
+.top_1 .top_1_center .sub-menu2 .wp .sub-item{
+	float: left;
+    width: 200px;
+    height: 220px;
+    padding: 20px 0 35px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.top_1 .top_1_center .sub-menu2 .wp .sub-item .cover{
+	display: block;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+}
+
+.top_1 .top_1_center .sub-menu2 .wp .sub-item .cover  img{
+	display: block;
+	width: 150px;
+	height: 170px;
+}
+.top_1 .top_1_center .sub-menu2 .wp .sub-item .name{
+	display: block;
+	position: relative;
+	top:-30px;
+	font-size: 15px;
+}
+.top_1 .top_1_center .sub-item .price{
+	display: block;
+	position: relative;
+	top:-80px;
+	color: red;
+    
+}
+.top_1 .top_1_center .sub-item .sub-sep{
+	content: '\20';
+    position: absolute;
+    height: 150px;
+    width: 1px;
+    background: #e8e8e8;
+    top: 58px;
+    right: 15px;
+}
+
+
+
+
+
+.top_1 .top_1_center .l1 {
+	width: 82px;
+	height: 80px;
+}
+
+.top_1 .top_1_center .l2 {
+	width: 114px;
+	height: 80px;
+}
+
+.top_1 .top_1_center .l3 {
+	width: 146px;
+	height: 80px;
+}
+
+.top_1 .top_1_center ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.top_1 .top_1_center ul li a:hover {
+	color: red;
+}
+
+.xiala1 .cover {
+	display: block;
+	width: 170px;
+	height: 170px;
+	text-align: center;
+	line-height: 170px;
+}
+
+.xiala1 .name {
+	display: block;
+	line-height: 30px;
+	color: #262626;
+}
+
+.xiala1 .name {
+	font-size: 15px;
+}
+
+.xiala1 .price {
+	display: block;
+	line-height: 20px;
+	color: #ea413c;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.dis{
+	display: none;
+}

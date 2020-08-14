@@ -1,0 +1,455 @@
+body {
+	width: auto;
+	margin: auto;
+	font-family: "微软雅黑";
+}
+
+.first_ul {
+	margin: auto;
+	width: 100%;
+	height: 53px;
+	list-style-type: none;
+	float: left;
+	background-color: #101010;
+	opacity: 80%;
+	color: white;
+	z-index: 10;
+}
+
+.first_ul li {
+	float: left;
+	line-height: 53px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.first_ul_li1 {
+	width: 28px;
+	height: 28px;
+	background: url(../img/sougoutingxie_logo.svg) no-repeat;
+	position: relative;
+	top: 13px;
+	margin-left: 40px;
+}
+
+.first_ul a {
+	color: white;
+	text-decoration: none;
+	line-height: 53px;
+	float: left;
+	margin-left: 35px;
+}
+
+.first_ul a:hover {
+	color: #fd6a2d;
+}
+
+.first_ul_a {
+	margin-right: 40px;
+	float: right;
+}
+
+.module_1 {
+	width: 100%;
+	height: 500px;
+	font-size: 40px;
+	color: white;
+	background: url(../img/sougougtingxie_module1.png) no-repeat;
+}
+
+.module_1_div {
+	width: 1180px;
+	margin: auto;
+}
+
+.module_1 ul {
+	margin: auto;
+	width: 1180px;
+}
+
+.module_1 ul,
+.module_2 ul,
+.module_3 ul,
+.module_4 ul,
+.module_5 ul,
+.module_6 ul,
+.module_7 ul,
+.module_8 ul,
+.module_9 ul,
+.module_10 ul,
+.module_11 ul {
+	list-style-type: none;
+}
+
+.module_1_li1 span {
+	font-size: 90px;
+}
+
+.module_1_li2 {
+	font-size: 20px;
+	letter-spacing: 13px;
+	line-height: 60px;
+}
+
+.module_1_li2 span {
+	color: #fd6a2d;
+}
+
+.module_1_li3 {
+	cursor: pointer;
+	height: 50px;
+	width: 240px;
+	background: url(../img/sougoutingxie_btn.png) no-repeat;
+	margin-top: 30px;
+	font-size: 19px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.module_1_li1,
+.module_1_li2,
+.module_1_li3 {
+	position: relative;
+	top: 50px;
+}
+
+.module_2 {
+	width: 100%;
+	height: 590px;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.module_2 img {
+	background: url(../img/sougoutingxie_modle2_font.png) no-repeat;
+}
+
+.module_3 {
+	width: 100%;
+	height: 563px;
+	margin-top: 20px;
+}
+
+.module_3_img {
+	width: 1180px;
+	height: 100%;
+	margin: auto;
+	background: url(../img/sougoutingxie_modle2_font2.png) no-repeat;
+}
+
+.module_3_img ul li {
+	margin: auto;
+	float: left;
+	position: relative;
+	top: 230px;
+	right: 40px;
+}
+
+.module_3_li2,
+.module_4_li2,
+.module_5_li2,
+.module_6_li2,
+.module_7_li2,
+.module_8_li2 {
+	font-size: 32px;
+	line-height: 130px;
+}
+
+.module_3_li3,
+.module_3_li4,
+.module_3_li5,
+.module_4_li3,
+.module_5_li3,
+.module_5_li4,
+.module_5_li5,
+.module_6_li3,
+.module_6_li4,
+.module_7_li3,
+.module_7_li4,
+.module_7_li5,
+.module_8_li3 {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.module_3_li5 {
+	opacity: 0.4;
+}
+
+.module_4 {
+	width: 1180px;
+	height: 481.9px;
+	margin: auto;
+}
+
+.module_4_li1 {
+	float: right;
+	position: relative;
+	right: 120px;
+}
+
+.module_4_li2,
+.module_4_li3 {
+	float: right;
+	position: relative;
+	top: 150px;
+	right: 180px;
+}
+
+.module_5 {
+	width: 1180px;
+	height: 460px;
+	margin: auto;
+}
+
+.module_5_li1 {
+	margin: 0px 50px 0px 50px;
+	float: left;
+}
+
+.module_5_li2 {
+	padding-top: 100px;
+}
+
+.module_6 {
+	width: 1180px;
+	height: 412px;
+	margin: auto;
+}
+
+.module_6_li1 {
+	float: right;
+}
+
+.module_6_li2,
+.module_6_li3,
+.module_6_li4 {
+	float: right;
+	position: relative;
+	top: 100px;
+	right: 150px;
+}
+
+.module_7 {
+	height: 510px;
+	width: 1180px;
+	margin: auto;
+}
+
+.module_7_li1 {
+	float: left;
+}
+
+.module_7_li2,
+.module_7_li3,
+.module_7_li4,
+.module_7_li5 {
+	position: relative;
+	top: 120px;
+	left: 130px;
+}
+
+.module_8 {
+	height: 580px;
+	width: 1380px;
+	margin: auto;
+}
+
+.module_8_li1 {
+	float: right;
+	position: relative;
+}
+
+.module_8_li2,
+.module_8_li3 {
+	float: right;
+	position: relative;
+	top: 140px;
+}
+
+.module_9_li1 {
+	width: 1200px;
+	height: 555px;
+	margin: auto;
+}
+
+.module_10 {
+	width: 1180px;
+	height: 139px;
+	margin: auto;
+	margin-bottom: 130px;
+}
+
+.module_11 {
+	width: 1230px;
+	height: 418px;
+	margin: auto;
+}
+
+.module_11 ul {
+	width: 21%;
+	float: left;
+	margin: auto;
+}
+
+.module_11_li1,
+.module_11_li3,
+.module_11_li5,
+.module_11_li7 {
+	width: 238px;
+	height: 238px;
+	padding-bottom: 4px;
+}
+
+.module_11_li7 img {
+	position: relative;
+	top: 11px;
+}
+
+.module_11_li9 {
+	width: 238px;
+	height: 238px;
+	background: url(../img/sougoutingxie_module_11_1.png) no-repeat;
+	padding-bottom: 4px;
+	display: none;
+}
+
+.module_11_li10 {
+	width: 238px;
+	height: 238px;
+	background: url(../img/sougoutingxie_module_11_2.png) no-repeat;
+	padding-bottom: 4px;
+	display: none;
+}
+
+
+.module_11_li9 img,
+.module_11_li10 img {
+	width: 90px;
+	height: 90px;
+	position: relative;
+	left: 71px;
+	top: 74px;
+}
+
+.module_11_li11,
+.module_11_li12 {
+	width: 238px;
+	height: 238px;
+	position: relative;
+	top: 4px;
+	left: 2px;
+	display: none;
+	padding-bottom: 4px;
+}
+
+.module_11_li2,
+.module_11_li4,
+.module_11_li6,
+.module_11_li8 {
+	height: 40px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 19px;
+	background: url(../img/sougoutingxie_module_11_btn.png) no-repeat 33px 0px;
+	position: relative;
+	right: 7px;
+	margin-top: 30px;
+}
+
+.module_12 {
+	width: 100%;
+	height: 322px;
+	margin: auto;
+	background-color: #2e3032;
+}
+
+.module_12_div1 {
+	width: 1050px;
+	height: 264px;
+	position: relative;
+	top: 30px;
+	margin: auto;
+}
+
+.module_12_div2 {
+	width: 460px;
+	height: 205px;
+	float: left;
+}
+
+.module_12_p1,
+.module_12_p6,
+.module_12_p11 {
+	margin-bottom: 29px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.module_12_p2,
+.module_12_p3,
+.module_12_p4,
+.module_12_p5,
+.module_12_p13 {
+	color: hsla(0, 0%, 100%, .6);
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 24px;
+}
+
+.module_12_div3 {
+	width: 270px;
+	height: 205px;
+	float: left;
+}
+
+.module_12_p7 a,
+.module_12_p8 a,
+.module_12_p9 a,
+.module_12_p10 a,
+.module_12_div6 a,
+.module_12_div5 {
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 24px;
+	color: hsla(0, 0%, 100%, .6);
+	text-decoration: none;
+}
+
+.module_12_p7 a:hover,
+.module_12_p8 a:hover,
+.module_12_p9 a:hover,
+.module_12_p10 a:hover,
+.module_12_div6 a:hover {
+	color: #ff7f47;
+}
+
+.module_12_div4 {
+	width: 290px;
+	height: 205px;
+	float: right;
+}
+
+.module_12_div5 {
+	width: 1050px;
+	height: 63px;
+	border-top: 2px solid hsla(0, 0%, 100%, .1);
+	clear: both;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+
+.module_12_div6 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.module_12_div5_a {
+	line-height: 30px;
+}

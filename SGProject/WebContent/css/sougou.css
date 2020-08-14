@@ -1,0 +1,542 @@
+.fixWin{
+	width: 80px;
+	height: 260px;
+	position: fixed;
+	right: 0px;
+	top: 240px;
+	border-left:1px solid #d9d9d9;
+	border-top:1px solid #d9d9d9;
+	text-align: center;
+	border-bottom:1px solid #d9d9d9;
+}
+#img02{
+	border-top:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.product{
+	height: 600px;
+	width: 100%;
+	margin-top: 20px;
+}
+.navi a{
+	text-decoration: none;
+	color: black;
+}
+.navi .thisDes,.describe p{
+	color: darkgrey;
+}
+.proLeft{
+	height: 100%;
+	width: 42%;
+	float: left;
+	margin-right: 60px;
+}
+.proRight{
+	height: 100%;
+	width: 51%;
+	float: left;
+}
+.proLeft img{
+	height: 500px;
+	width: 500px;
+	border: solid 1px gainsboro;
+}
+.proLeft .imgList img{
+	width: 82px;
+	height: 80px;
+	margin-top: 13px;
+	margin-right: 14px;
+}
+.proRight span{
+	font-size: 27px;
+	font-weight: bold;
+}
+.proRight .rmb,.proRight .price{
+	color: #ea413c;
+}
+.rmbPrice{
+	margin-top: 20px;
+}
+.rmbPrice .rmb{
+	font-size: 20px;
+}
+.rmbPrice .freeShip{
+    width: 44px;
+    height: 22px;
+    background: #f77168;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 23px;
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+    left: 100px;
+}
+.penColor{
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+.penColor p,.num p{
+	font-size: 16px;
+}
+.colBtn{
+	width: 190px;
+	height: 50px;
+	margin-right: 7px;
+	margin-bottom: 20px;
+	border-radius: 0px;
+}
+.num p{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.changNum{
+	width: 70px;
+	height: 50px;
+	margin: 0px;
+}
+.num img{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #d9d9d9;
+	float: left;
+}
+.num input{
+	width: 70px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	outline: 0px;
+	border:1px solid #d9d9d9;
+}
+.isBuy{
+	margin-top: 3px;
+}
+.isBuy input{
+	width: 190px;
+	height: 50px;
+	border: 1px solid #ea413c;
+	margin-top: 20px;
+}
+.isBuy .comeCart{
+	color: #ea413c;
+	font-size: 18px;
+	margin-right: 15px;
+}
+.isBuy .buyNow{
+	color: white;
+	background-color: #ea413c;
+	font-size: 17px;
+}
+.threeDes{
+	margin-top: 27px;
+}
+.threeDes span{
+	margin-right: 50px;
+    font-size: 14px;
+	color: #8c8c8c;
+}
+.headline{
+	margin-top: 55px;
+}
+.productDet{
+	width: 160px;
+	height: 50px;
+	font-size: 17px;
+	border-right:1px solid #d9d9d9;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+}
+.proDetails{
+	border-left: 1px solid #d9d9d9;
+	color: red;
+	float: left;
+}
+.proEvalu{
+	border-right:1px solid #d9d9d9;
+	color: black;
+}
+.chang{
+	border-top:  1px solid red;;
+	border-bottom: 0px;
+}
+.noChang{
+	border-top:  1px solid #d9d9d9;
+	border-bottom:  1px solid #d9d9d9;
+}
+.blank{
+	width: 860px;
+	height: 50px;
+	border-right:1px solid #d9d9d9;
+	border-top:  1px solid #d9d9d9;
+	border-bottom:  1px solid #d9d9d9;
+	float: left;
+}
+.number{
+	color: red;
+}
+.comment{
+	width: 100%;
+	margin: auto;
+}
+.picture{
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+.discussion{
+	width: 100%;
+	display: none;
+}
+.disLeft{
+	width: 70%;
+	float: left;
+	text-align: center;
+}
+.disLeftDiv{
+	width: 97%;
+	background-color: #F5F5F5;
+    line-height: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border: 1px solid #d9d9d9;
+}
+.more{
+	display: none;
+}
+.disRight{
+	width: 280px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 5px;
+	text-align: center;
+}
+.disRightOne{
+	margin-bottom: 20px;
+	border: 1px solid #d9d9d9;
+}
+.disRightTwo{
+	border: 1px solid #d9d9d9;
+}
+.disRightImg{
+	margin-bottom: 35px;
+}
+.disRightDiv{
+	width: 100%;
+	background-color: #F5F5F5;
+    line-height: 40px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.disRightDiv span{
+	margin-left: -160px;
+}
+.bodyStyle{
+	background-color: #F5F5F5;
+	width: 100%;
+}
+.communityTop{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.community{
+	width: 86.5%;
+	margin: auto;
+}
+.commuComm{
+	width: 100%;
+	margin-top: 40px;
+}
+.commLeft{
+	width: 68%;
+	float: left;
+}
+.repPen{
+	height: 460px;
+	background-color: white;
+	padding-top: 22px;
+	padding-left: 22px;
+	margin-bottom: 22px;
+}
+.message{
+	margin-top: 20px;
+}
+.message img{
+	margin-right: 8px;
+	float: left;
+}
+#describe2{
+	color: #595959;
+}
+.message span{
+	margin-top: -2px;
+	margin-right: 20px;
+	color: #BFBFBF;
+	float: left;
+}
+.messRight{
+	float: right;
+}
+.messageImg{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.commDetail{
+	width: 100%;
+	background-color: white;
+	margin-top: -2px;
+	margin-right: 20px;
+}
+.commDetail div{
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 100px;
+}
+.commDetail>div{
+	width: 100%;
+	border-bottom: 1px solid #F5F5F5;
+}
+.commDetail a{
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top: -10px;
+	margin-left: 15px;
+}
+.messRight2{
+	position: relative;
+	top: -80px;
+	margin-left: 540px;
+}
+.messRight2 img,.messBottom img{
+	margin-right: 15px;
+}
+.messRight2 span,.messBottom span{
+	margin-right: 20px;
+	color: #BFBFBF;
+}
+.messBottom{
+	position: relative;
+	top: -150px;
+	left: 63px;
+}
+#messLoadMore{
+	height: 0px;
+	padding: 0px;
+}
+.moreSpec{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #F5F5F5;
+	background-color: white;
+	display: none;
+}
+#messImg{
+	width: 100%;
+	height: 60px;
+	line-height: 40px;
+	border-bottom: 0px;
+	text-align: center;
+	background-color: #FDFDFD;
+}
+.commRight{
+	width: 30%;
+	float: right;
+}
+.commRightTop{
+	height: 100px;
+	background-color: white;
+}
+.crtImg{
+	margin-top: 20px;
+	float: left;
+}
+.crta{
+	margin-top: 35px;
+	margin-left: 15px;
+	color: red;
+	font-size: 17px;
+	float: left;
+}
+.crta:hover{
+	color: red;
+	text-decoration: none;
+}
+.crtp{
+	color: #8C8C8C;
+	position: relative;
+	top: 60px;
+	left: -35px;
+}
+.crLink{
+	width: 100%;
+	height: 185px;
+	background-color: white;
+	margin-top: 20px;
+}
+#crlp{
+	height: 60px;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 20px;
+	line-height: 65px;
+	border-bottom:1px solid #F5F5F5;
+}
+.link a{
+    display: inline-block;
+    width: 116.7px;
+    height: 34px;
+    line-height: 34px;
+    border-right: 1px solid #f5f5f5;
+    text-align: center;
+    font-size: 14px;
+    color: #202020;
+}
+.link a:hover{
+	text-decoration: none;
+}
+.activity{
+	width: 100%;
+	height: 340px;
+	margin-top: 20px;
+	background-color: white;
+	text-align: center;
+}
+.actp{
+	height: 50px;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 60px;
+	position: relative;
+	left: -110px;
+}
+.acta{
+	position: relative;
+	top: -10px;
+}
+.hotActicle{
+	width: 100%;
+	height: 650px;
+	margin-top: 20px;
+	background-color: white;
+	text-align: center;
+}
+.hacta{
+	text-decoration: none;
+}
+.hacta p{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.hacta{
+	color: black;
+}
+.hacta:hover{
+	text-decoration: none;
+	color: red;
+}
+.headLines{
+	width: 100%;
+	height: 170px;
+	margin-top: 20px;
+	background-color: white;
+}
+.headRec{
+	height: 60px;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 60px;
+	margin-left: 22px;
+	border-bottom: 1px solid #f5f5f5;
+}
+.headLines a{
+	text-decoration: none;
+	font-size: 14px;
+    color: #202020;
+    line-height: 25px;
+    margin-left: 22px;
+}
+#communityBottom{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	margin-top: 1750px;
+	background-color: white;
+	font-size: 12px;
+	color: #B8B8B8;
+}
+#communityBottom>div{
+	padding-top: 55px;
+}
+#communityBottom>div a{
+	text-decoration: none;
+	margin-right: 20px;
+	color: #B8B8B8;
+}
+#communityBottom>div p{
+	margin-top: 25px;
+	margin-left: -15px;
+}
+.communityTop>img{
+	margin-left: 90px;
+	margin-top: 20px;
+}
+.communityTop>a{
+	margin-left: 50px;
+	position: relative;
+	top: 15px;
+	font-size: 16px;
+	color: #333333;
+	text-decoration: none;
+}
+.communityTop>a:hover{
+	color: red;
+}
+.communityTop>a img{
+	margin-left: 5px;
+}
+.floatDiv{
+	position: absolute;
+	z-index: 1;
+	margin-left: 880px;
+	margin-top: -50px;
+	height: 200px;
+	display: none;
+}
+.fdBottom{
+	width: 358px;
+	height: 165px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white #D9D9D9 #D9D9D9 white;
+	position: relative;
+	top: -6px;
+	padding-top: 13px;
+	background-color: white;
+}
+.fdBottom div{
+	padding-left: 5px;
+	margin-left: 13px;
+	width:143px;
+	height: 35px;
+	float: left;
+}
+.fdBottom>a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	line-height: 30px;
+	float: left;
+}

@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bottom {
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.bottom .center1 {
+	height: 430px;
+	width: 1180px;
+	margin: auto;
+}
+
+.bottom .center1 .service {
+	height: 280px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.bottom .center1 .service .intro {
+	float: left;
+	width: 580px;
+	height: 205px;
+	color: #262626;
+	border-right: 1px solid gainsboro;
+	margin-top: 40px;
+}
+
+.bottom .center1 .service .intro .flag {
+	
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.bottom .center1 .service .intro .list {
+	width: 580px;
+	height: 102px;
+	margin-right: 0px;
+}
+
+.bottom .center1 .service .intro .list tr td {
+	width: 20%;
+	height: 51px;
+}
+
+.bottom .center1 .service .follow {
+	width: 362px;
+	height: 201px;
+	margin-top: 40px;
+	border-right: 1px solid gainsboro;
+	float: left;
+}
+
+.bottom .center1 .service .follow .desc {
+	width: 362px;
+	height: 18px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.bottom .center1 .service .follow .desc span {
+	color: #e83b3b;
+}
+
+.bottom .center1 .service .follow .list img {
+	width: 105;
+	height: 105px;
+}
+
+.bottom .center1 .service .follow .list {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+.bottom .center1 .service .right {
+	width: 235px;
+	height: 281px;
+	float: left;
+}
+
+.bottom .center1 .service .right .list {
+	border-bottom: 1px solid gainsboro;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.bottom .center1 .service .right .list span {
+	font-size: 15px;
+}
+
+.bottom .center1 .service .right .list .t1 {
+	height: 55px;
+}
+
+.bottom .center1 .service .right .list .t2 {
+	height: 35px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.bottom .center1 .service .right .list1 {
+	height: 130px;
+	margin: auto;
+}
+
+.bottom .center1 .service .right .list1 .w2 {
+	color: red;
+	font-size: 20px;
+}
+
+.bottom .center1 .service .right .list1 .w3 {
+	color: darkgrey;
+	font-size: 15px;
+}
+
+.link {
+	width: 1180px;
+	height: 160px;
+	text-align: center;
+	margin: auto;
+}
+
+.link a {
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+}
+
+.link .l1 {
+	width: 48px;
+	height: 16px;
+}
+
+.link .l2 {
+	width: 84px;
+	height: 16px;
+}
+
+.link .ls1 {
+	margin-top: 70px;
+	width: 100%;
+	height: 30px;
+}
+
+.link .ls2 {
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	color: darkgray;
+}

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#upperbg{
+					width: 100%;
+				    height: 29px;
+				    background: #f4f4f4;
+				    border-bottom: 1px solid #bdbdbd;
+				    position: absolute;
+				    z-index: 7;
+				    top: 0px;
+				    left: 0px;
+					border: 1px solid blue;
+			}
+			#upperct{
+				    height: 29px;
+				    line-height: 29px;
+				    margin: 0px auto;
+				    width: 960px;
+				    position: relative;
+				    z-index: 8;
+			}
+			#upperzy a {
+		
+				float: left;
+			    line-height: 29px;
+			    position: relative;
+			    padding-left: 20px;
+			    text-decoration: none;
+			    font-size: 13px;
+			}
+			#header{
+				    margin: 0px auto;
+				    width: 960px;
+				    height: 66px;
+				    position: relative;
+				    z-index: 101;
+				 /*   */
+				    
+			}
+			#logo {
+				width: 190px;
+			    position: relative;
+			    z-index: 9;
+			    float: left;
+			    
+			}
+			.logo{
+				background: url(img/sglogo.png)no-repeat -3px 0px;
+			    display: block;
+			    width: 190px;
+			    height: 66px;
+			}
+			#sgse_main{
+				    width: 700px;
+				    height: 66px;
+				    float: left;
+				    position: relative;
+				    z-index: 9;
+			}
+			#sgse_tab{
+				text-align: center;
+			    line-height: 24px;
+			    height: 26px;
+			    padding-left: 10px;
+			    overflow: hidden;
+			    z-index: 110;
+			    position: absolute;
+			    top: 0px;
+			    left: 30px;
+			}
+			#sgse_tab li {
+				    color: #3f3f3f;
+				    font-size: 14px;
+				    width: 45px;
+				    height: 25px;
+				    padding: 1px;
+				    float: left;
+				   cursor: pointer;
+				      list-style: none;
+				
+				}
+			#sgse_tab li a {
+				    outline: none;
+				}
+				#sgse_tab li.sgse_onsel {
+				    font-weight: bold;
+				    color: #125297;
+				}
+				a {
+					    color: #125297;
+					    text-decoration: none;
+					}
+				#sgse_fdiv {
+				    width: 640px;
+				    height: 40px;
+				    z-index: 100;
+				    position: absolute;
+				    top: 26px;
+				    left: 30px;
+				    /*border: 1px solid red;*/
+				}
+				#sgse_qb {
+				    width: 380px;
+				    height: 30px;
+				    border: 1px solid #9a9a9a;
+				    background: #cfcfcf;
+				    float: left;
+				    position: relative;
+				    z-index: 100;
+				}
+				#sgse_wd{
+				    font-size: 14px;
+				    outline: none;
+				    width: 376px;
+				    height: 23px;
+				    line-height: 20px;
+				    margin: 1px 0px 0px 1px;
+				    *margin-top: 0px;
+				    border: none;
+				    padding: 3px 0px 3px 3px;
+				    background: #fff;
+				}
+				#sgse_btn {
+				    width: 76px;
+				    height: 32px;
+				    padding-left: 11px;
+				    float: left;
+				}
+				#sgse_sb {
+					    width: 76px;
+					    height: 32px;
+					    cursor: pointer;
+					    border: none;
+					    font-size: 14px;
+					}
+				#topbar {
+				   height: 30px;
+				    line-height: 24px;
+				    width: 960px;
+				    margin: 0px auto;
+				    text-align: left;
+				  /*  border: 1px solid darkorchid;*/
+				}
+			#subm {
+				width: 960px;
+				height: 500px;
+				margin: 0px auto;
+				text-align: left;
+				border: 1px solid red;
+				
+			}
+			.box1 {
+				border: 1px solid #BCD2E6;
+				clear: both;
+				padding-bottom: 15px;
+				background: #FFF;
+			}
+			.feedback_tips {
+				height: 36px;
+				width: 958px;
+				background: url(img/tit_bg_x.gif) repeat-x 0 0;
+				padding: 10px 0px 5px 0px;
+			}
+			.feedback_tips p {
+				width: 540px;
+				height: 32px;
+				line-height: 32px;
+				padding-left: 34px;
+				color: #A54520;
+				font-size: 14px;
+				background: url(img/ab_smile.png)no-repeat left center;
+				margin: 0 auto;
+			}
+			.feedback_con {
+				margin: 20px 55px 0 30px;
+				width: 863px;
+				line-height: 37px;
+			}
+			.feedback_con td strong {
+				padding-left: 25px;
+				font-size: 14px;
+				color: #626262;
+			}
+			
+			.feedback_con .td_text td  {
+				width: 728px;
+				height: 140px;
+				padding: 5px;
+				border: 1px solid #7390C7;
+			}
+			.feedback_con td strong {
+			    padding-left: 25px;
+			    font-size: 14px;
+			    color: #626262;
+			    }
+			    .feedback_con td {
+				    height: 37px;
+				}
+				.label {
+			    cursor: default;
+			}
+			.fb_gray {
+				    color: #626262;
+				    display: block;
+				    height: 37px;
+				    line-height: 37px;
+				    width: 540px;
+				}
+				.feedback_con td .fb_input {
+				    width: 144px;
+				    height: 20px;
+				    border: 1px solid #7390C7;
+				    padding: 3px;
+				}
+				.fb_gray {
+					    color: #626262;
+					    display: block;
+					    height: 37px;
+					    line-height: 37px;
+					    width: 540px;
+					}
+			.form1 .feedback_com #fankui {
+				width: 740px;
+				height: 152px;
+				border: 1px solid red;
+			}
+			.form1 .feedback_com .Email{
+				padding-top: 0px;
+			}
+			.fb_btn {
+				    height: 22px;
+				    overflow: hidden;
+				    clear: both;
+				    padding-right: 64px;
+				}
+			 .fb-btn #fb_submit {
+					    width: 78px;
+					    height: 22px;
+					    float: right;
+					    margin: -15px 10px 20px 20px;
+					}
+			.fb-btn #fankui_tip {
+				    line-height: 22px;
+				    float: right;
+				    margin-right: 30px;
+				    color: #f00;
+				    font-size: 12px;
+				    display: none;
+				     margin: -15px 10px 20px 20px;
+				    
+				}
+				.fb_b_tips strong {
+					    padding-left: 25px;
+					    font-size: 15px;
+					    color: #626262;
+					     /*border: 1px solid blue;*/
+					}
+					.freeback-con2 {
+					    margin: 10px auto 0;
+					    width: 480px;
+					    height: 118.46px;
+					    font-size: 14px;
+					    color: #333333;
+					   /* border: 1px solid red;*/
+					    text-align: center;
+					}
+					#base{
+						width: 960px;
+					    height: 60px;
+					    clear: both;
+					}
+					#basefoot {
+					    text-align: center;
+					    line-height: 46px;
+					    height: 46px;
+					    clear: both;
+					    color: #3e3e3e;
+					    padding-top: 4px;
+					    width: 920px;
+					    margin: 0px auto;
+					    /*border: 1px solid blue;*/
+					}
+					#ft_about {
+				    background: url(img/logo_s.png) no-repeat left center;
+				    padding-left: 22px;
+				}
+				#ft_icp {
+				    color: #909090;
+				}
+					
+			
+						
+		</style>
+	</head>
+
+	<body>
+		<div id="upperbg">
+			<div id="upperct">
+				<div id="upperzy">
+					<a href="#">网址大全</a>
+					<a href="#">电影</a>
+					<a href="#">电视剧</a>
+					<a href="#">彩票</a>
+					<a href="#">团购</a>
+					<a href="#">购物</a>
+					<a href="#">手机必备</a>
+				
+				
+				</div>
+		</div>
+		<div id="header">
+			<div id="logo"><a href="#" class="logo"></a></div>
+			<div id="sgse_main">
+				<ul id="sgse_tab">
+					<li id="sesg_li_1" class="sgse_onsel">
+						<a href="#">网页</a>
+					</li>
+					<li id="sesg_li_2" >
+						<a href="#">MP3</a>
+					</li>
+					<li id="sesg_li_3" >
+						<a href="#">视频</a>
+					</li>
+					<li id="sesg_li_4" >
+						<a href="#">图片</a>
+					</li>
+					<li id="sesg_li_5" >
+						<a href="#">知道</a>
+					</li>
+					<li id="sesg_li_6" >
+						<a href="#">淘宝</a>
+					</li>
+					<li id="sesg_li_7" >
+						<a href="#">地图</a>
+					</li>
+					
+					
+				</ul>
+				<div id="sgse_fdiv">
+					<div id="sgse_qb">
+						<input type="text" id="sgse_wd" onmousemove="this.focus()" />
+					</div>
+					<div id="sgse_btn">
+						<input id="sgse_sb" type="submit" value="搜索">
+					</div>
+				</div><!--sgse_fdiv end-->
+			</div><!--sgse_main end-->
+		</div><!--header end-->
+		
+				<div id="topbar">
+					<a href="#" id="home_123">导航首页</a>
+					&nbsp;&nbsp;> &nbsp;&nbsp;
+					<span>意见反馈</span>
+				</div><!--topbar end-->
+				
+				<div id="subm">
+						<div class="box1">
+							<div class="feedback_tips">
+								<p>请您对我们提出宝贵意见和建议，您留下的每个意见都是我们产品不断改进的动力！</p>
+							</div>
+							<form class="form1" action="#" method="post">
+								<table class="feedback_com" width="960px" style="width: 960px;">
+									<tbody>
+										<tr class="td-text">
+											<td width="110">
+												<strong>问题反馈：</strong>
+											</td>
+											<td colspan="2">
+											<input type="text" name="fankui" id="fankui" value="" height="400px"width="500px" />
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<strong class="cplb">产品类型：</strong>
+											</td>
+											<td width="310">
+												<label>
+											<input type="radio"name="cple" />
+											&nbsp;产品类型&nbsp;&nbsp;&nbsp;
+										</label> &nbsp;&nbsp;
+										<label>
+											<input type="radio" name="cple" id="cple"/>
+											&nbsp;网站导航（含电影、小说、商城、笑话）&nbsp;
+										</label>
+											</td>
+											<td>
+												<span class="fk_text">请选择您反馈的产品，以便我们的产品经理为您做出最快捷的答复。</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<strong class="email">您的邮箱：</strong>
+											</td>
+											<td width="160">
+												<input type="text"class="fb_input" name="email" id="email" value=""style="width: 260px;" />
+											</td>
+											<td>
+												<span id="email_tip" class="fb_gray">留下真实邮箱，您将有机会获得我们送出的礼品。</span>
+											</td>
+										</tr>
+											
+									</tbody>
+									
+								</table>
+								<div class="fb-btn">
+												<input type="submit" id="fb_submit" value="提交"  />
+												<span id="fankui_tip" style="display: block;">请您填写问题反馈的内容：）</span>
+										</div>
+							</form><!--form end-->
+						</div><!--box1 end-->
+					
+						<div class="bf_b_bottom" >
+									<p class="fb_b_tips">
+										<strong >常见疑难解答：</strong>
+									</p>
+									<table class="freeback-con2">
+										<tbody>
+											<tr>
+												<td width="240">
+													<a href="#" >皮肤、天气、搜索引擎等设置问题</a>
+												</td>
+												<td width="240">
+													<a href="#" >邮箱登陆问题请点击这里</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="240">
+													<a href="#" >快速通道相关问题请点击这里</a>
+												</td>
+												<td width="240">
+													<a href="#" >收录申请请点击这里</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="240">
+													<a href="#">搜索历史问题请点击这里</a>
+												</td>
+												<td width="240">
+													<a href="#">团购申请请点击这里</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="240">
+													<a href="#" >收录申请请点击这里</a>
+												</td>
+												<td width="240">
+													<a href="#" >广告合作请点击这里</a>
+												</td>
+											</tr>
+											
+										</tbody>
+									</table>
+										
+						</div>
+					<div id="base">
+						<div id="basefoot">
+							<a href="#" id="ft_about" >关于我们</a>
+							&nbsp;&nbsp;|&nbsp;&nbsp;
+							<a href="#" >隐私政策</a>
+							"&nbsp;&nbsp;Copyright ©&nbsp;2019 Sogou.com.&nbsp;All Rights Reserved.&nbsp;"
+							<a href="http:#" id="ft_icp">京ICP证050897号1</a>
+						</div>
+					</div>	
+				</div><!--subm end-->
+			
+		
+
+	</body>
+
+</html>
