@@ -30,4 +30,8 @@ public class DaoTest {
 		Mycart mycart = mycartDao.getCartByPidAndUid(3, 6);
 		System.out.println(mycart);
 	}
+	
+	public void add() {
+		System.err.println("添加了ADD方法");
+	}
 }
