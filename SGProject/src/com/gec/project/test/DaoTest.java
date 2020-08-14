@@ -34,4 +34,10 @@ public class DaoTest {
 	public void add() {
 		System.err.println("添加了ADD方法");
 	}
+	public void insert() {
+		System.out.println("添加了insert方法");
+	}
+	
+	
+	
 }
